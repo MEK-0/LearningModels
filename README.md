@@ -1,133 +1,48 @@
-#  Machine Learning Topics and Subtopics
+#  AI & Machine Learning Projects
 
-A structured overview of fundamental and advanced concepts in Machine Learning (ML), including supervised and unsupervised learning, reinforcement learning, model evaluation, and more.
-
----
-
-##  Introduction & Basic Concepts
-
-- **What is Machine Learning?**
-- **Difference between AI, ML, and DL**
-- **Types of Machine Learning**
-  - Supervised Learning
-  - Unsupervised Learning
-  - Semi-supervised Learning
-  - Reinforcement Learning
-- **Common Terminology**
-  - Features, Labels  
-  - Training vs Testing Data  
-  - Overfitting vs Underfitting  
-  - Bias-Variance Tradeoff  
+Welcome to my collection of projects and experiments in the fields of **Artificial Intelligence**, **Machine Learning**, **Deep Learning**, and **Image Processing**. This repository serves as a comprehensive learning hub and playground for building intelligent systems.
 
 ---
 
-##  Supervised Learning
+##  Topics Covered
 
-### Regression
-- Linear Regression  
-- Polynomial Regression  
-- Ridge and Lasso Regression  
+### 1.  Artificial Intelligence (AI)
+- Rule-based systems
+- Intelligent agents
+- Search algorithms (A*, BFS, DFS)
+- Game playing AI (Minimax, Alpha-Beta Pruning)
+- Natural Language Processing (NLP) basics
 
-### Classification
-- Logistic Regression  
-- k-Nearest Neighbors (k-NN)  
-- Support Vector Machines (SVM)  
-- Decision Trees  
-- Random Forests  
-- Naive Bayes  
-- Gradient Boosting (XGBoost, LightGBM, CatBoost)  
+### 2.  Machine Learning (ML)
+- Supervised Learning
+  - Linear Regression
+  - Logistic Regression
+  - Decision Trees & Random Forest
+  - Support Vector Machines (SVM)
+  - K-Nearest Neighbors (KNN)
+- Unsupervised Learning
+  - K-Means Clustering
+  - PCA (Principal Component Analysis)
+  - DBSCAN
+- Model Evaluation
+  - Cross-validation
+  - Confusion Matrix, ROC-AUC
+- Feature Engineering
 
-### Evaluation Metrics
-- Accuracy, Precision, Recall, F1-Score  
-- Confusion Matrix  
-- ROC Curve & AUC  
+### 3.  Deep Learning (DL)
+- Neural Networks with TensorFlow & PyTorch
+- Convolutional Neural Networks (CNN)
+- Recurrent Neural Networks (RNN), LSTM, GRU
+- Transfer Learning (ResNet, VGG, MobileNet)
+- Autoencoders
+- GANs (Generative Adversarial Networks)
 
----
+### 4.  Image Processing & Computer Vision
+- Image filtering & transformations (OpenCV)
+- Edge detection (Canny, Sobel)
+- Object detection (YOLO, SSD, Faster R-CNN)
+- Face recognition
+- Image segmentation (U-Net, Mask R-CNN)
+- OCR (Optical Character Recognition)
 
-##  Unsupervised Learning
-
-### Clustering
-- k-Means  
-- DBSCAN  
-- Hierarchical Clustering  
-
-### Dimensionality Reduction
-- PCA (Principal Component Analysis)  
-- t-SNE  
-- LDA (Linear Discriminant Analysis)  
-
-### Association Rule Learning
-- Apriori Algorithm  
-- Eclat  
-
----
-
-##  Reinforcement Learning
-
-### Key Concepts
-- Agent, Environment, Reward, Policy  
-- Exploration vs Exploitation  
-
-### Algorithms
-- Q-Learning  
-- Deep Q-Networks (DQN)  
-- Policy Gradient Methods  
-- Actor-Critic Methods  
-
----
-
-##  Model Evaluation & Selection
-
-- Cross-Validation  
-- Grid Search & Random Search  
-- Hyperparameter Tuning  
-- Learning Curves  
-- Model Deployment Concepts  
-
----
-
-##  Neural Networks & Deep Learning (Basic ML Connection)
-
-- Perceptron  
-- Multilayer Perceptron (MLP)  
-- Backpropagation  
-- Activation Functions (ReLU, Sigmoid, Tanh)  
-- Loss Functions (MSE, Cross-Entropy)  
-
----
-
-##  Feature Engineering & Preprocessing
-
-- Data Cleaning  
-- Normalization / Standardization  
-- Encoding Categorical Data  
-- Handling Missing Data  
-- Feature Selection and Extraction  
-
----
-
-## Tools & Frameworks
-
-### Languages
-- Python  
-- R  
-- Julia  
-
-### Libraries
-- Scikit-learn  
-- Pandas, NumPy  
-- TensorFlow, PyTorch (for Deep Learning)  
-- XGBoost, LightGBM  
-
----
-
-## Practical Applications
-
-- Computer Vision  
-- Natural Language Processing  
-- Recommendation Systems  
-- Anomaly Detection  
-- Time Series Forecasting  
-
----
 
