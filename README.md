@@ -1,48 +1,79 @@
-#  AI & Machine Learning Projects
+## Data Preprocessing 
 
-Welcome to my collection of projects and experiments in the fields of **Artificial Intelligence**, **Machine Learning**, **Deep Learning**, and **Image Processing**. This repository serves as a comprehensive learning hub and playground for building intelligent systems.
+### 1. Understanding the Basics
+- Why is data preprocessing essential?
+- Types of data:
+  - Numerical
+  - Categorical
+  - Textual
+  - Datetime
+
+### 2. Data Loading and Initial Inspection
+- Load data from CSV, Excel, JSON, etc.
+- Inspect with `.head()`, `.info()`, `.describe()`
+- Identify missing values, data types, and potential issues
+
+### 3. Handling Missing Data
+- Deletion: row-wise or column-wise
+- Imputation:
+  - Mean, median, mode
+  - Forward/Backward fill
+  - Advanced: `KNNImputer`, `IterativeImputer` from scikit-learn
+
+### 4. Data Cleaning
+- Remove duplicates
+- Fix inconsistent entries
+- Trim whitespaces, fix encoding issues
+- Format datetime values
+
+### 5. Data Transformation
+- Log, square root, or other numerical transformations
+- Encoding categorical features:
+  - Label Encoding
+  - One-Hot Encoding
+  - Ordinal Encoding
+- Feature Scaling:
+  - `StandardScaler`
+  - `MinMaxScaler`
+  - `RobustScaler`, etc.
+
+### 6. Feature Engineering
+- Creating new features from existing ones
+- Extracting features from datetime (day, month, weekday, etc.)
+- Binning and polynomial features
+
+### 7. Outlier Detection and Treatment
+- IQR method
+- Z-score method
+- Visual analysis (boxplot, scatterplot)
+
+### 8. Text Data Preprocessing (for NLP)
+- Lowercasing, removing punctuation
+- Removing stopwords
+- Tokenization
+- Stemming vs Lemmatization
+
+### 9. Time Series Data Preprocessing
+- Parsing and indexing datetime
+- Rolling means and smoothing
+- Seasonal decomposition
+
+### 10. Train-Test Split and Data Partitioning
+- Use `train_test_split` from scikit-learn
+- Stratified sampling for imbalanced datasets
+- Prepare for cross-validation
 
 ---
 
-##  Topics Covered
+## Recommended Libraries
+- `pandas`, `numpy`, `matplotlib`, `seaborn`
+- `scikit-learn` (especially `sklearn.preprocessing`, `sklearn.impute`)
+- `nltk`, `spaCy` (for text data)
+- `statsmodels` (for time series)
 
-### 1.  Artificial Intelligence (AI)
-- Rule-based systems
-- Intelligent agents
-- Search algorithms (A*, BFS, DFS)
-- Game playing AI (Minimax, Alpha-Beta Pruning)
-- Natural Language Processing (NLP) basics
+---
 
-### 2.  Machine Learning (ML)
-- Supervised Learning
-  - Linear Regression
-  - Logistic Regression
-  - Decision Trees & Random Forest
-  - Support Vector Machines (SVM)
-  - K-Nearest Neighbors (KNN)
-- Unsupervised Learning
-  - K-Means Clustering
-  - PCA (Principal Component Analysis)
-  - DBSCAN
-- Model Evaluation
-  - Cross-validation
-  - Confusion Matrix, ROC-AUC
-- Feature Engineering
-
-### 3.  Deep Learning (DL)
-- Neural Networks with TensorFlow & PyTorch
-- Convolutional Neural Networks (CNN)
-- Recurrent Neural Networks (RNN), LSTM, GRU
-- Transfer Learning (ResNet, VGG, MobileNet)
-- Autoencoders
-- GANs (Generative Adversarial Networks)
-
-### 4.  Image Processing & Computer Vision
-- Image filtering & transformations (OpenCV)
-- Edge detection (Canny, Sobel)
-- Object detection (YOLO, SSD, Faster R-CNN)
-- Face recognition
-- Image segmentation (U-Net, Mask R-CNN)
-- OCR (Optical Character Recognition)
-
-
+## Suggested Learning Resources
+- **Book**: *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* by Aurélien Géron  
+- **Course**: [Data Preprocessing for Machine Learning in Python - Coursera](https://www.coursera.org/learn/data-preprocessing-machine-learning)  
+- **GitHub Repos**: `feature-engine`, `pandas-profiling`, `scikit-learn` examples
